@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #120e20;
+}
+
+/** navbar-styling **/
+
+.navbar {
+    background-color: #120e20;
+    height: 60px;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space items apart */
+    padding: 0 20px; /* Add padding to the navbar */
+}
+
+.portfolio {
+    background-image: url(download.jpeg);
+    background-size: cover;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    margin-right: 250px; /*Larger gap between logo and first 'a' */
+    margin-left: 25px;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px; /* Adjust padding for better spacing */
+    margin-right: 40px;
+}
+
+.navbar-nav a:hover {
+    color: rgb(242, 195, 43);
+    transition-duration: 0.5s;
+    transform: scale(1.5);
+    text-decoration: underline;
+}
+
+.navbar a:active {
+    color: rgba(145, 22, 36, 0.653);
+    transition: color 0.5s; 
+    transform : 0.5s;
+}
+
+/** hero-section **/
+
+/*hero-text*/
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  h1{
+    color:white;
+    padding-bottom: 10px;
+    font-weight: 400;
+  }
+  .button{
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;  
+  }
+  .one{
+    color: rgb(242, 195, 43) ;
+    /* padding-top: 30px; */
+  }
+
+  .button {
+    text-align: center;
+    position: absolute;
+    top: 68%; /* Adjusted position */
+    left: 25%; /* Adjusted position */
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+  .button button {
+    padding: 10px 20px;
+    background-color: #179db8fb;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 15px;
+    border: 2px solid #3f1d89fb;
+    margin-top: 20px; 
+}
+
+.p {
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+.button button:hover {
+    background-color: #961717;
+    /* transition-duration: 1s; */
+    /* transform: scale(1.1); */
+}
+
+/** hero-image **/
+.hero-image{
+    text-align: center;
+    position: absolute;
+    top: 48%;
+    right: 15%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#portfolio {
+ margin-top: 50% ;
+ margin-left: 10%;
+ padding-top: 7%;
+} 
+
+.port-one{
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(242, 195, 43);
+}
+
+.port-two{
+    width: 90%;
+    color: white;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    margin-top: 2%;
+}
+#cards{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    height: 60%;
+    margin-bottom: 100px;
+}
+ .card{
+    margin-top: 20px;
+    width: 26%;
+    height: 100%;
+    border: 2px 0px 0px 0px solid #3f1d89fb;
+    border-radius: 8px ;
+    text-align:justify;
+    color: white;
+    background-color: #3514af;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 0.5%;
+    box-shadow: 4px 4px 4px #3a0be4;
+ }
+ .card h1{
+    color:  rgb(242, 195, 43);
+    text-align: center;
+    margin-top: 5px;
+    background-color: #3514af;
+ }
+ span{
+    font-size: 80px;
+    color: rgb(242, 195, 43);
+ }
+ .experience{
+    display: flex;
+ }
+
+ /*-----services section-------*/
+ #services{
+    margin-top: 20% ;
+    margin-left: 10%;
+    padding-top: 7%;
+ }
+
+
+ 
+ /*------------contact-----------*/
+ #contact{
+    display: flex;
+    width: 90%;
+    margin-left: 10%;
+   margin-top: 20%;
+    margin-bottom: 12%;
+ }
+
+ #contact h1{
+    color:  rgb(242, 195, 43);
+    font-size: 30px;
+ }
+ #contact p{
+    font-size: 22px;
+    color: white;
+ }
+
+ h3{
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+ }
+
+ .input{
+    margin-top: 5%;
+ }
+
+ .input div {
+    margin-bottom: 20px; /* Add some space between div elements */
+}
+
+input[type="text"] {
+    width: 100%; /* Make input fields span the full width of their container */
+    padding: 10px; /* Add padding to the input fields for better spacing */
+    border: 2px solid #ccc; /* Add a border to the input fields */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    background-color: rgba(35, 34, 34, 0.627);
+}
+
+
+input[type="text"]:focus {
+    outline: none; /* Remove the default focus outline */
+    border-color: #007bff; /* Change border color when input is focused */
+}
+
+#send{
+    padding: 10px 20px;
+    background-color: #179db8fb;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 8px;
+    border: 2px solid #3f1d89fb;
+    width: 100px;
+}
+#send button:hover {
+    background-color: #961717;
+}
